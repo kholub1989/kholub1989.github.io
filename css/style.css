@@ -268,9 +268,9 @@ p {
   }
 }
 
-/* .mySlides-img {
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8);
-} */
+.my-slides-img {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
 /* === PORTFOLIO ENDS === */
 /* === FOOTER STARTS === */
 .main-social {
