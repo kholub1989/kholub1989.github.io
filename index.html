@@ -1,2 +1,182 @@
-"Hello World"
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <title>About Me Webpage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 header-title">
+        <h1>Krisztian Holub</h1>
+        <h2>&#60;&#62;front-end developer&#60;&#8725;&#62;</h2>
+        <span id="clock"></span>
+      </div>
+      <div class="col-md-12">
+        <nav class="main-nav">
+          <ul>
+            <li><a class="main-nav-item main-nav-home" href="#"><span class="visually-hidden">home</span></a></li>
+            <li><a class="main-nav-item main-nav-gallery" href="gallery.html"><span class="visually-hidden">gallery</span></a></li>
+            <li><a class="main-nav-item main-nav-info" href="resume.html"><span class="visually-hidden">resume</span></a></li>
+            <li><a class="main-nav-item main-nav-mail" id="myBtn"> <span class="visually-hidden">mail</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row article">
+      <div class="col-lg-6 img">
+        <img src="img/img1.JPG" alt="image">
+      </div>
+      <div class="col-lg-6 main">
+        <h2>Welcome</h2>
+        <p>I am web developer living in <strong>New York, USA</strong>. I spend my days with hand in many different areas of web development: HTML, CSS, JavaScript, JQuery, digital accessibility, user experience, responsive, mobile first, cross
+          browser and visual
+          design.</p>
+        <p>I extremely passionate about web development and design in all it’s forms and trying to make the world look a bit better. I am highly skilled with HTML, CSS, and JavaScript. I have over one year of experience with each of these
+          technologies, and I am eager to learn even more technologies to sharpen my skillset. In addition to web technologies, I do have a passion for an artificial intelligence and machine learning as well.</p>
+        <p>Aside from web development, I enjoy spending my time on running and biking. I'm a runner and also participate in a marathon. My hobby has become an integral part of my life. The race of the marathon taught me to achieve my goal despite
+          all the difficulties, and the bike gave me the feeling of complete freedom.</p>
+      </div>
+    </div>
+    <div class="row skills">
+      <div class="col-md-12">
+        <h2>My skill set includes:</h2>
+        <ul class="skill-set">
+          <li>
+            <span>Programming:</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+          </li>
+          <li>
+            <span>Libraries:</span>
+            <span>jQuery</span>
+            <span>Sass</span>
+            <span>LESS</span>
+          </li>
+          <li>
+            <span>Design:</span>
+            <span>User Experience</span>
+            <span>User Interface</span>
+            <span>Responsive</span>
+            <span>Cross Browser</span>
+          </li>
+          <li>
+            <span>Tools and Workflow:</span>
+            <span>Chrome DevTools</span>
+            <span>Git/GitHub</span>
+            <span>Command Line</span>
+            <span>NPM</span>
+            <span>Vi/Vim</span>
+            <span>Glup</span>
+            <span>Grunt</span>
+            <span>Photoshop</span>
+          </li>
+          <li>
+            <span>Other:</span>
+            <span>English</span>
+            <span>Russian</span>
+            <span>Ukrainian</span>
+            <span>Hungarian</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 portfolio">
+        <h2 class="portfolio-header">Portfolio:</h2>
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <div class="text">
+              <h3>Nerds</h3>
+              <p>Fixed, sprites, HTML5, CSS3, Javascript</p>
+            </div>
+
+          <a href="portfolio/nerds/index.html"><img src="portfolio/nerds-index.jpg" alt="Nerds"></a>
+          </div>
+          <div class="mySlides">
+            <div class="text">
+              <h3>Gllacy</h3>
+              <p>Responsive, SVG, HTML5, CSS3, Javascript</p>
+            </div>
+            <a href="portfolio/gllacy/index.html"><img src="portfolio/gllacy-index-1200.jpg" alt="Gllacy"></a>
+          </div>
+          <div class="mySlides">
+            <div class="text">
+              <h3>Barbershop</h3>
+              <p>HTML5, CSS3, Javascript</p>
+            </div>
+            <a href="portfolio/barbershop/index.html"><img src="portfolio/barbershop-index.jpg" alt="Barbershop"></a>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 main-social">
+        <nav>
+          <ul>
+            <li><a class="social-button social-button-linkedin" href="https://www.linkedin.com/in/krisztian-holub-1a3079174/" target="_blank"><span class="visually-hidden">linkedin</span></a></li>
+            <li><a class="social-button social-button-github" href="https://github.com/kholub1989" target="_blank"><span class="visually-hidden">github</span></a></li>
+            <li><a class="social-button social-button-facebook" href="https://www.facebook.com/profile.php?id=100008832166844" target="_blank"><span class="visually-hidden">facebook</span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-12 main-social-webpage">
+        <h4 class="copyright">&copy; 2018 kholub.com</h4>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="myModal" class="col-md-12 modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <form class="form" action="index.html" method="post" id="form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input class="form-control" type="text" name="name" value="" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input class="form-control" type="text" name="email" value="" id="email" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="tel">Tel:</label>
+              <input class="form-control" type="text" name="tel" value="" id="tel">
+            </div>
+            <div class="form-group">
+              <label for="massege">Message:</label>
+              <textarea class="form-control" name="massage" rows="3" id="massege"></textarea>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer contact">
+          <ul>
+            <li class="contact-mail"><a class="contact-mail-link" href="mailTo:kholub1989@gmail.com">kholub1989@gmail.com</a></li>
+            <li class="contact-mobile"><a class="contact-mobile-link" href="tel:3477252616">(347) 725-2616</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script-main.js"></script>
+</body>
