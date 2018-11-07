@@ -465,9 +465,9 @@ p {
 
 /* === GALLERY ENDS === */
 /* === RESUME STARTS === */
-.main {
+/* .main {
   padding: 20px 0;
-}
+} */
 
 .main::first-letter {
   font-size: 200%;
